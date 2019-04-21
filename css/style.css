@@ -155,9 +155,6 @@ header {
 	padding: 20px;
 	border-radius: 12px;
 	background-color: rgba(49, 8, 31, 0.4);
-	position: relative;
-	left: 5.5%;
-	margin-top: 150px;
 	display: flex;
 	align-items: left;
 	justify-content: center;
