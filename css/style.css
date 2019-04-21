@@ -101,7 +101,7 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin: 80px;
+	margin: 13%;
 }
 
 .vitrine-column {
@@ -122,12 +122,12 @@ header {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	margin: 80px;
+	margin: 13%;
 }
 
 .flex-item {
-	margin: 0 5.5%;
-	padding: 150px;
+	margin: 0 6.5%;
+	padding: 120px;
 	border-radius: 6px;
 }
 
@@ -151,7 +151,7 @@ header {
 # Artigo
 --------------------------------------*/
 #artigo {
-	margin: 80px;
+	margin: 13%;
 	padding: 20px;
 	border-radius: 12px;
 	background-color: rgba(49, 8, 31, 0.4);
