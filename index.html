@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Carlos "Dek" Matheus</title>
+	<meta name="description" content="Portfolio Carlos Matheus da Silva Sousa">
+	<meta name="keywords" content="portfolio, programmer, backend web, software developer">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content='Carlos "Dek" Matheus'>
+
+	
+	<link href="img/favicon.png" rel="icon">
+	<!--<link href="img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Anton|Lato" rel="stylesheet">
+
+	<!-- Bootstrap CSS File -->
+	<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Libraries CSS Files -->
+	<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Main Stylesheet File -->
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body id="body">
+
+	<!--=============================
+		Top Bar
+		=============================-->
+	<section id="topbar" class="d-none d-lg-block">
+		<div class="container clearfix">
+
+			<div class="contact-info float-left">
+				<i class="fa fa-envelope-o"></i> <a href="mailto:carlosmatheussousa@gmail.com">carlosmatheussousa@gmail.com</a>
+				<i class="fa fa-phone"></i> +55 85 98952 1683
+			</div>
+
+			<div class="social-links float-right">
+				<a href="https://twitter.com/dereguee" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+				<a href="https://www.facebook.com/cmdektron" class="facebook"  target="_blank"><i class="fa fa-facebook"></i></a>
+				<a href="https://www.instagram.com/cmatheusdek/" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+				<a href="https://cmdek.tumblr.com/" class="tumblr" target="_blank"><i class="fa fa-tumblr"></i></a>
+			</div>
+
+		</div>
+	</section>
+
+
+	<!--=============================
+		Header
+		=============================-->
+	<header id="header">
+		<div class="container">
+
+			<div id="logo" class="pull-left">
+				<a href="#body"><img src="img/logo.png" alt="Logo" title=""></a>
+			</div>
+
+			<nav id="nav-menu-container">
+				<ul class="nav-menu">
+					<li class="menu-active"><a href="#body">INICIO</a></li>
+					<li><a href="#sobre">SOBRE</a></li>
+					<li><a href="#orcamento">ORÇAMENTO</a></li>
+				</ul>
+			</nav>
+
+		</div>
+	</header>
+
+	<!--=============================
+			Inicio Section
+	=============================-->
+	<section id="intro">
+		<div class="intro-content">
+			<h1>OI<span>! </span>EU SOU <span>O </span>DEK<span>.</span></h1>
+			<p>Designer e Desenvolvedor de Softwares</p>
+		</div>
+	</section>
+
+	<main id="main">
+
+	<!--============================
+			Sobre Section
+	=============================-->
+	<section id="sobre">
+		<div class="container">
+
+			<div class="sobre-content">
+				<h3>HEY!</h3>
+				<p><strong>Trabalho com:</strong><br>Desenvolvimento de softwares, desenvolvimento web, design de jogos, design gráfico, web design, ilustrações.</p>
+				<p><strong>Gosto de:</strong><br> Jogos desafiadores, histórias que envolvem mistério e/ou investigação, músicas relaxantes e gatos.</p>
+				<p><strong>Tenho experiência com:</strong><br> HTML, CSS, JavaScript, Java, Python, Processing, C, Github, PHP, MySQL, Photoshop, Illustrator, Animate, Blender, Piskel, Sony Vegas e Audacity.</p>
+			</div>
+			<div class="avatar-content">
+			</div>		
+		</div>
+	</section>
+
+	<!--============================
+			Orcamento Section
+	=============================-->
+	<section id="orcamento">
+		<div class="container">
+			<div class="section-header">
+				<h2>Orçamentos</h2><hr>
+			</div>
+
+			<div class="orcamento-content">
+				<p>O processo de trabalho demora, em média, de duas a quatro semanas - dependendo do tipo de projeto a ser desenvolvido.<strong> O preço
+				pode ser afetado por nível de urgência, complexidade e qualidade almejados.</strong> Bons projetos demandam tempo e atenção,
+				então é necessário ter em mente um prazo realista.
+				Um trabalho que precisa ser entregue apressadamente nem sempre terá a qualidade adequada que só seria alcançada com o
+				tempo. E se você precisa de um projeot impecável e “pra ontem”, tenha em mente que outros trabalhos foram colocados em stand
+				by para que o seu fosse finalizado, e que isso se refletirá no valor final.</p>
+				<p>Digamos que um projeto fictício de criação de ícones para um aplicativo mobile seja orçado em <strong>R$ 500,00.</strong> Faça uso da calculadora de orçamento abaixo para entender como os valores podem ser afetados:</p>
+			</div>
+			<div id="calculadora">
+				<select name="orcamentoSelect" id="orcamentoSelect" >
+					<option value="" disabled selected>Escolha uma opção</option>
+					<option value="2"  >Bom</option>
+					<option value="0.5">Barato</option>
+					<option value="4"  >Bom e Barato</option>
+				</select><br>
+				<input type="submit" name="button" id="button" onclick="calcularPreco()" value="Conferir">
+			</div>
+		</div>
+	</section>
+
+	</main>
+	
+	<a href="#body" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+	<!-- JavaScript Libraries -->
+	<script src="lib/jquery/jquery.min.js"></script>
+	<script src="lib/jquery/jquery-migrate.min.js"></script>
+	<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+	<!-- Main Javascript File -->
+	<script src="js/main.js"></script>
+</body>
+</html>

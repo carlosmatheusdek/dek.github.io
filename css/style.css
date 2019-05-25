@@ -1,0 +1,362 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+body {
+	margin: 0;
+	background: #768774;
+	color: white;
+	font-family: "Lato", sans-serif;
+}
+
+a {
+	color: #3e463d;
+	transition: 0.5s;
+}
+
+a:hover,
+a:active,
+a:focus {
+	color: #7700ff;
+	outline: none;
+	text-decoration: none;
+}
+
+p {
+	font-family: "Lato", sans-serif;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+/* Back to top button */
+
+.back-to-top {
+	position: fixed;
+	display: none;
+	background: #7700ff;
+	color: #eaeaea;
+	padding: 6px 12px 9px 12px;
+	font-size: 16px;
+	border-radius: 2px;
+	right: 15px;
+	bottom: 15px;
+	transition: background 0.5s;
+}
+
+.back-to-top:focus {
+	background: #7700ff;
+	color: #eaeaea;
+	outline: none;
+}
+
+.back-to-top:hover {
+	background: #5900bf;
+	color: #eaeaea;
+}
+
+/*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+
+#topbar {
+	background: #94B290;
+	padding: 10px 0;
+	width: 100vw;
+	border-bottom: 1px solid #7D967A;
+	font-size: 14px;
+}
+
+#topbar .contact-info a{
+	line-height: 1;
+	color: #eaeaea;
+}
+
+#topbar .contact-info a:hover {
+	color: #7700ff;
+}
+
+#topbar .contact-info i {
+	color: #7700ff;
+	padding: 4px;
+}
+
+#topbar .contact-info .fa-phone {
+	padding-left: 20px;
+	margin-left: 20px;
+	border-left: 1px solid #7D967A;
+}
+
+#topbar .social-links a {
+	color: #3e463d;
+	padding: 4px 12px;
+	display: inline-block;
+	line-height: 1px;
+	border-left: 1px solid #7D967A;
+}
+
+#topbar .social-links a:hover {
+	color: #7700ff;
+}
+
+#topbar .social-links a:first-child {
+  border-left: 0;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+#header {
+	position: sticky;
+	top: 0px;
+	padding: 10px 0;
+	height: 80px;
+	width: 100vw;
+	transition: all 0.5s;
+	z-index: 997;
+	background: #94B290;
+	box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+}
+
+#header #logo img {
+	padding: 0;
+	margin: 0;
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+
+/* Nav Menu Essentials */
+
+.nav-menu,
+.nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu ul {
+	position: absolute;
+	display: none;
+	top: 100%;
+	left: 0;
+	z-index: 99;
+}
+
+.nav-menu li {
+	position: relative;
+	white-space: nowrap;
+}
+
+.nav-menu > li {
+	float: left;
+}
+
+.nav-menu li:hover > ul,
+.nav-menu li.sfHover > ul {
+	display: block;
+}
+
+.nav-menu ul li {
+	min-width: 180px;
+}
+
+/* Nav Meu Container */
+
+#nav-menu-container {
+	float: right;
+	margin: 0;
+}
+
+/* Nav Menu Styling */
+
+.nav-menu a {
+	margin: 9px 0;
+	padding: 10px 14px;
+	text-decoration: none;
+	display: inline-block;
+	color: #7B8C79;
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	outline: none;
+}
+
+.nav-menu li:hover > a,
+.nav-menu .menu-active > a {
+	color: #7700ff;
+}
+
+.nav-menu > li {
+	margin-left: 2px;
+}
+
+/*--------------------------------------------------------------
+# Intro Section
+--------------------------------------------------------------*/
+
+#intro {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	background: url("../img/bgintro.png") no-repeat;
+	background-size: cover;
+}
+
+#intro .intro-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	padding: 20px;
+	border: 2px solid #FFF9F3;
+	z-index: 10;
+	text-align: center;
+}
+
+#intro .intro-content h1 {
+	color: #eaeaea;
+	margin-bottom: 0px;
+	font-size: 60px;
+}
+
+#intro .intro-content h1 span {
+	color: #7700ff;
+}
+
+#intro .intro-content p {
+	margin: 0;
+	font-size: 21px;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Sobre Section
+--------------------------------------------------------------*/
+#sobre {
+	align-items: center;
+	background: #5c695b;
+	min-height: 500px;
+}
+
+#sobre .container {
+	display: grid;
+	height: 90%;
+	grid-template-columns: 50% 50%;
+	overflow: scroll;
+	padding: 0;
+}
+
+.sobre-content {
+	width: 100%;
+	padding: 20px;
+	background-color: #8742FF;
+	color: white;
+	font-size: 20px;
+}
+
+.avatar-content{
+	width: 100%;
+	margin: 0;
+	background: url("../img/avatar.png") no-repeat;
+	background-size: cover;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Orçamento Section
+--------------------------------------------------------------*/
+#orcamento {
+	position: relative;
+	align-items: center;
+	background: #3e463d;
+	min-height: 500px;
+}
+
+hr {
+	background-color: white;
+}
+
+#orcamento .container {
+	height: 90%;
+	padding: 40px;
+	background-color: #94B290;
+}
+
+.orcamento-content {
+	font-size: 18px;
+}
+.orcamento-content strong {
+	color: #7700ff;
+}
+
+.orcamento-content p:last-child {
+	margin-bottom: 10px;
+}
+
+#calculadora {
+	text-align: center;
+}
+
+select {
+	background-color: #eaeaea;
+	margin-bottom: 10px;
+	padding: 6px;
+	border: none;
+	border-radius: 4px;
+	background-color: #f1f1f1;
+	color: #7700ff;
+}
+
+input[type=submit] {
+	background-color: #7700ff;
+	text-decoration: none;
+	border: none;
+	color: white;
+	padding: 8px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+input[type=submit]:hover{
+	background-color: #3c0080;
+}
+
+/*--------------------------------------------------------------
+# Sections
+--------------------------------------------------------------*/
+
+/* Sections */
+
+#orcamento,
+#sobre {
+	padding-top: 150px;
+	width: 100vw;
+	height: 100vh;
+}
+.section-header {
+	margin-bottom: 30px;
+}
