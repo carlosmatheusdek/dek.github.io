@@ -301,6 +301,7 @@ hr {
 #orcamento .container {
 	height: 90%;
 	padding: 40px;
+	overflow: scroll;
 	background-color: #94B290;
 }
 
